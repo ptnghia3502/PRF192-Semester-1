@@ -7,16 +7,9 @@ void printDivisors(int N) {
 } 
 
 int main() {
-	int n, i;
+	int n;
 	printf("\nInput n=");
 	scanf("%d", &n);
 	printDivisors(n);
-	printf("\nInput n=");
-	scanf("%d", &n);
-	printDivisors(n);
-	printf("\nInput n=");
-	scanf("%d", &n);
-	printDivisors(n);
-	getchar();
 	getchar();
 }
